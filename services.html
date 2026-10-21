@@ -22,6 +22,24 @@
   </header>
   <main id="main-content">
     <h1>Find your way to help</h1>
+
+    <section class="interest-planner" aria-labelledby="planner-title">
+      <h2 id="planner-title">Find your way to get involved</h2>
+      <p>Choose a program to see the next steps. Your choice carries over to the contact form.</p>
+      <label for="program-choice">I am interested in</label>
+      <select id="program-choice">
+        <option value="">Choose an interest</option>
+        <option value="volunteer">Volunteering</option>
+        <option value="foster">Fostering</option>
+        <option value="adoption">Adoption information</option>
+      </select>
+      <noscript><p>To learn about each program, read the sections below and choose your interest on the contact form.</p></noscript>
+
+      <p>We remember only your interest choice on this browser. You can clear it at any time.</p>
+      <div id="program-details" class="program-details" aria-live="polite"></div>
+      <p id="preference-status" role="status" aria-live="polite"></p>
+      <button id="forget-preference" type="button">Clear remembered interest</button>
+    </section>
     <div class="sections">
     <section aria-labelledby="adoption">
       <h2 id="adoption">Our adoption process</h2>
@@ -63,5 +81,6 @@
     <p>Student demonstration website. Organization details and statistics are fictional.</p>
     <p><a href="contact.html">Ask about adoption, fostering or volunteering</a></p>
   </footer>
+  <script src="interactivity.js" defer></script>
 </body>
 </html>

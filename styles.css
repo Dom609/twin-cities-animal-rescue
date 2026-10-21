@@ -71,3 +71,12 @@ button:hover { background: var(--cream); color: var(--forest); }
   form fieldset { flex: 1 1 calc(50% - .75rem); }
   form > p { flex-basis: 100%; }
 }
+
+/* Touchstone 4 interest planner and accessible validation feedback. */
+.interest-planner { margin-bottom: 2rem; background: var(--sage); }
+.interest-planner select { max-width: 32rem; margin-bottom: 1rem; }
+.program-details { padding: 1rem; margin: 1rem 0; border-left: 4px solid var(--forest); background: var(--cream); }
+.program-details h3 { color: var(--forest); margin: 0 0 .75rem; }
+.field-error { display: block; font-weight: bold; margin-top: .35rem; }
+[aria-invalid="true"] { border: 3px solid var(--ink); }
+#forget-preference { margin: 0 0 1rem; }

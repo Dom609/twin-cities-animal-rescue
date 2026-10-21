@@ -25,7 +25,12 @@
     <div class="sections">
     <section aria-labelledby="interest">
       <h2 id="interest">Volunteer, foster or adoption interest form</h2>
-      <p id="form-help">All fields are required. This student demonstration checks your entries in the browser but does not send or save inquiries. Please do not enter sensitive information.</p>
+      <p id="form-help">All fields are required. This student demonstration checks your entries in the browser but does not send inquiries or save your contact details. Only your selected interest is remembered on this browser. Please do not enter sensitive information.</p>
+
+      <p>We remember only your interest choice on this browser. You can clear it at any time.</p>
+      <div id="program-details" class="program-details" aria-live="polite"></div>
+      <p id="preference-status" role="status" aria-live="polite"></p>
+      <button id="forget-preference" type="button">Clear remembered interest</button>
       <form action="contact.html" method="get" aria-describedby="form-help">
         <fieldset>
           <legend>Your contact information</legend>
@@ -76,6 +81,6 @@
     <p>Student demonstration website. Organization details and statistics are fictional.</p>
     <p><a href="contact.html">Ask about adoption, fostering or volunteering</a></p>
   </footer>
-  <script src="form.js"></script>
+  <script src="interactivity.js" defer></script>
 </body>
 </html>
