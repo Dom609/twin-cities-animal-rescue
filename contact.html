@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Start a conversation with our team at Twin Cities Animal Rescue.">
+  <title>Start a conversation with our team | Twin Cities Animal Rescue</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-contact">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header>
+    <p class="brand"><img src="assets/rescue-logo_c.png" alt="" width="64" height="64">Twin Cities Animal Rescue</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Adoption, fostering and volunteering</a></li>
+        <li><a href="about.html">About our rescue</a></li>
+        <li><a href="contact.html" aria-current="page">Contact and interest form</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <h1>Start a conversation with our team</h1>
+    <div class="sections">
+    <section aria-labelledby="interest">
+      <h2 id="interest">Volunteer, foster or adoption interest form</h2>
+      <p id="form-help">All fields are required. This student demonstration checks your entries in the browser but does not send or save inquiries. Please do not enter sensitive information.</p>
+      <form action="contact.html" method="get" aria-describedby="form-help">
+        <fieldset>
+          <legend>Your contact information</legend>
+          <p><label for="full-name">Full name (required)</label><br>
+            <input id="full-name" name="full-name" type="text" autocomplete="name" required minlength="2" maxlength="100"></p>
+          <p><label for="email">Email address (required)</label><br>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="254"></p>
+        </fieldset>
+        <fieldset>
+          <legend>Your interests and experience</legend>
+          <p><label for="interest-type">Interest type (required)</label><br>
+            <select id="interest-type" name="interest-type" required>
+              <option value="">Choose one interest</option>
+              <option value="volunteer">Volunteering</option>
+              <option value="foster">Fostering</option>
+              <option value="adoption">Adoption information</option>
+            </select></p>
+          <p id="availability-help">Include days, times and how often you are available.</p>
+          <p><label for="availability">Availability (required)</label><br>
+            <input id="availability" name="availability" type="text" required minlength="5" maxlength="200" aria-describedby="availability-help"></p>
+          <p><label for="experience">Experience with pets (required)</label><br>
+            <textarea id="experience" name="experience" rows="4" cols="40" required minlength="10" maxlength="1000"></textarea></p>
+          <p>You may describe caring for a pet or write that you are a beginner and would welcome guidance.</p>
+          <p><label for="message">Short message (required)</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required minlength="10" maxlength="1000"></textarea></p>
+        </fieldset>
+        <p><button type="submit">Check interest form entries</button></p>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section aria-labelledby="area">
+      <h2 id="area">Our service area</h2>
+      <p>Our example rescue serves Minneapolis, Saint Paul and nearby Twin Cities communities. Foster and adoption meetings are arranged by appointment; please contact the team before planning a visit.</p>
+    </section>
+    <section aria-labelledby="hours">
+      <h2 id="hours">Office hours</h2>
+      <dl>
+        <dt>Monday through Friday</dt><dd>10 a.m. to 5 p.m. Central Time</dd>
+        <dt>Saturday</dt><dd>10 a.m. to 2 p.m. Central Time, by appointment</dd>
+        <dt>Sunday</dt><dd>Closed</dd>
+      </dl>
+      <p>These are sample hours for this student website.</p>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2026 Twin Cities Animal Rescue</p>
+    <p>Student demonstration website. Organization details and statistics are fictional.</p>
+    <p><a href="contact.html">Ask about adoption, fostering or volunteering</a></p>
+  </footer>
+  <script src="form.js"></script>
+</body>
+</html>

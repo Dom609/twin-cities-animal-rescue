@@ -1,0 +1,36 @@
+TOUCHSTONE 3 — WHAT TO SUBMIT
+
+Your website continues the Twin Cities Animal Rescue project from Task 2.
+The four HTML pages, styles.css, form.js, and assets folder must stay together.
+
+1. Preview locally
+Open index.html in your browser. Click the navigation to review all four pages.
+For an IDE preview, open this folder in your IDE and use its preview feature.
+
+2. Create the required public GitHub repository
+Sign in to GitHub (or create your account), create a repository named
+twin-cities-animal-rescue, and choose Public.
+Use GitHub Desktop to clone the new repository to your computer.
+Copy this folder's CONTENTS into that clone, keeping the assets folder intact.
+index.html should appear at the repository root, beside the assets folder.
+In GitHub Desktop, commit the files and push the commit to GitHub.
+The original video is about 96 MiB, which exceeds GitHub's browser-upload limit,
+so use GitHub Desktop rather than the browser uploader for this project.
+
+3. Make a working web preview
+In the repository, go to Settings > Pages.
+Choose Deploy from a branch, select your main branch and /(root), then save.
+Wait for GitHub to show the published website address and open it to test it.
+This provides a hosted preview; if your instructor requires an IDE-specific
+preview, import the same repository into your course IDE and copy its preview URL.
+
+4. Finish the Word template
+Add the actual repository URL and working preview URL in Section 1 of the
+design explanation document. Check the working-preview item only after testing.
+Test the public links in a private/incognito window.
+The design explanations, metadata, and required screenshot are already included.
+Review the wording so it reflects your own understanding and work.
+
+5. Submit the completed Word template as the single assignment file.
+Your linked public repository supplies the actual HTML, CSS, JavaScript, and media.
+Do not submit only the ZIP or screenshot in place of the required document.
